@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Basket </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="project_css/project_style.css">
+</head>
+<body>
+
+	<div class="menu." id="home">
+		<div class="topnav" id="myTopnav">
+			<a href="home.html">Home</a>
+			<a href="equipment.html">Camping Equipment</a>
+			<a href="furniture.html">Furniture</a>
+			<a href="review.html">Reviews</a>
+			<a href="basket.html" class="active">Basket</a>
+			<a href="offer.html">Offers and Packages</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+
+	<section class="sales-section">
+
+		<h3>Shop now</h3>
+		<p>
+			Explore the great outdoors in comfort and style with our range of camping products
+		</p>
+
+		<div class="break">
+			<div class="line">
+				<span class="triangle-up"></span>
+				<span class="triangle-down"></span>
+			</div>
+		</div>
+
+		<div class="search-section">
+			<input type="text" placeholder="Search...">
+			<button class="search-button">
+				<i class="fa fa-search"></i>
+			</button>
+		</div>
+
+		<div class="container">
+
+			<div class="box">
+				<img src="img/wheel.png" alt="--">
+				<i class="ti-layers-alt"></i>
+				<h3>500 Items Sold</h3>
+				<h4>
+					Decathlon
+				</h4>
+				<p>
+					Camping Folding Transport Trolley - Grey
+				</p>
+				<h3>$85</h3>
+				<button onclick="myFunction()">Add to Basket</button>
+			</div>
+
+			<div class="box col">
+
+				<img src="img/tent2.png" alt="--">
+				<h3>100 Items Sold</h3>
+				<h4>
+					SNOW PEAK TENT
+				</h4>
+				<p>
+					AMENITY DOME [FOR 3/5 PEOPLE / 6 PEOPLE]
+				</p>
+				<h3>$130.90</h3>
+				<button onclick="myFunction()">Add to Basket</button>
+			</div>
+
+			<div class="box">
+				<img src="img/cot.png" alt="--">
+				<i class="ti-layers-alt"></i>
+				<h3>300 Items Sold</h3>
+				<h4>
+					Coleman
+				</h4>
+				<p>
+					Comfortsmart Deluxe Cot Product
+				</p>
+				<h3>$190</h3>
+				<button onclick="myFunction()">Add to Basket</button>
+			</div>
+
+			<div class="fix"></div>
+
+
+		</div><!-- .container -->
+
+		<div class="container">
+
+			<div class="box">
+				<img src="img/wheel.png" alt="--">
+				<i class="ti-layers-alt"></i>
+				<h3>500 Items Sold</h3>
+				<h4>
+					Decathlon
+				</h4>
+				<p>
+					Camping Folding Transport Trolley - Grey
+				</p>
+				<h3>$85</h3>
+				<button onclick="myFunction()">Add to Basket</button>
+			</div>
+
+			<div class="box col">
+
+				<img src="img/tent2.png" alt="--">
+				<h3>100 Items Sold</h3>
+				<h4>
+					SNOW PEAK TENT
+				</h4>
+				<p>
+					AMENITY DOME [FOR 3/5 PEOPLE / 6 PEOPLE]
+				</p>
+				<h3>$130.90</h3>
+				<button onclick="myFunction()">Add to Basket</button>
+			</div>
+
+			<div class="box">
+				<img src="img/cot.png" alt="--">
+				<i class="ti-layers-alt"></i>
+				<h3>300 Items Sold</h3>
+				<h4>
+					Coleman
+				</h4>
+				<p>
+					Comfortsmart Deluxe Cot Product
+				</p>
+				<h3>$190</h3>
+				<button onclick="myFunction()">Add to Basket</button>
+			</div>
+
+			<div class="fix"></div>
+
+
+		</div><!-- .container -->
+
+
+	</section>
+
+	<section class="sale" id="sale">
+
+		<h1>My Basket</h1>
+		<p>
+			Shop now and enjoy the convenience of having your items delivered straight to your door!
+		</p>
+
+		<div class="break">
+			<div class="line">
+				<span class="triangle-up"></span>
+				<span class="triangle-down"></span>
+			</div>
+		</div>
+	</section>
+	<div class="cart-container">
+		<div class="product-card">
+			<div class="product-image">
+				<img src="img/tent3.png" alt="product">
+			</div>
+			<div class="product-details">
+				<div>
+					<h3 class="product-name">6 Person Camping Shelter Arpenaz Base M</h3>
+					<p class="product-price">$99.99</p>
+					<p class="product-description">Outdoor</p>
+				</div>
+				<div class="quantity-container">
+					<button class="decrement-btn" onclick="decrement()">-</button>
+					<input id=demoInput type=number value="4" min=1 max=100 class="quantity-input">
+					<button class="increment-btn" onclick="increment()">+</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="check-out">
+			<div class="content">
+				<h3 class="product-name">Cart Summary</h3>
+				<table>
+					<tr>
+						<td>Subtotal:</td>
+						<td>$399.96</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>Delivery:</td>
+						<td>$5</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>Total:</td>
+						<td>$404.96</td>
+					</tr>
+				</table>
+			</div>
+			<button type="submit" id="checkoutbtn">
+				Check Out
+			</button>
+		</div>
+
+
+
+	</div>
+	<!--		<div class="product-card">
+					<div class="product-image">
+						<img src="img/1.png" alt="product">
+					</div>
+					<div class="product-details">
+						<div>
+							<h3 class="product-name">6 Person Camping Shelter Arpenaz Base M</h3>
+							<p class="product-price">$99.99</p>
+							<p class="product-description">Outdoor</p>
+						</div>
+						<div class="quantity-container">
+							<button class="decrement-btn" onclick="decrement()">-</button>
+							<input id=demoInput type=number value="1" min=1 max=100 class="quantity-input">
+							<button class="increment-btn" onclick="increment()">+</button>
+						</div>
+					</div>
+				</div>
+				<div class="product-card">
+					<div class="product-image">
+						<img src="img/1.png" alt="product">
+					</div>
+					<div class="product-details">
+						<div>
+							<h3 class="product-name">6 Person Camping Shelter Arpenaz Base M</h3>
+							<p class="product-price">$99.99</p>
+							<p class="product-description">Outdoor</p>
+						</div>
+						<div class="quantity-container">
+							<button class="decrement-btn" onclick="decrement()">-</button>
+							<input id=demoInput type=number value="1" min=1 max=100 class="quantity-input">
+							<button class="increment-btn" onclick="increment()">+</button>
+						</div>
+					</div>
+				</div>
+	-->
+
+	<footer>
+		<div class="container">
+			<div class="footer-col">
+				<p class="company-name">Camping Retail Co.Ltd.,</p>
+
+			</div>
+			<div class="footer-col">
+				<p>Contact Us</p>
+				<p class="address">No 17 Main St, Insein Township, Yangon</p>
+				<p class="phone">Phone: (555) 555-5555</p>
+			</div>
+			<div class="footer-col">
+				<p>Follow Us:</p>
+				<div class="social-icons">
+					<a href="#"><i class="fa fa-facebook-square"></i></a>
+					<a href="#"><i class="fa fa-twitter-square"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</div>
+				<p class="copyright">&copy; 2023 Camping Retail Co.</p>
+			</div>
+		</div>
+	</footer> <!-- footer-section -->
+
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+
+
+	<script>
+		function increment() {
+			document.getElementById('demoInput').stepUp();
+		}
+		function decrement() {
+			document.getElementById('demoInput').stepDown();
+		}
+	</script>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("snackbar");
+			x.className = "show";
+			setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+		}
+	</script>
+
+	<div id="snackbar">Successfully added one item to basket</div>
+
+
+</body>
+</html>
